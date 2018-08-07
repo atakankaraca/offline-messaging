@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Http;
+using Microsoft.Extensions.Configuration;
 using SharpRaven;
 using SharpRaven.Data;
 using System;
@@ -10,11 +11,13 @@ namespace OfflineMessaging.Api.Middleware
     {
         private readonly RequestDelegate _next;
         private RavenClient _ravenClient;
+        private IConfiguration _configuration;
 
-        public ExceptionHandlingMiddleware(RequestDelegate next)
+        public ExceptionHandlingMiddleware(RequestDelegate next, IConfiguration configuration)
         {
             _next = next;
-            _ravenClient = new RavenClient("https://48da261058fe49daab3568aea03c839a@sentry.io/1256036");
+            _configuration = configuration;
+            _ravenClient = new RavenClient(_configuration.GetSection("SentryLogger").GetSection("LogDsn").Value);
         }
 
         public async Task Invoke(HttpContext context)

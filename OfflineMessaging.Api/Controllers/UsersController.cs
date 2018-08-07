@@ -76,5 +76,15 @@ namespace OfflineMessaging.Api.Controllers
             return Ok();
 
         }
+
+        [AllowAnonymous]
+        [HttpGet("sentry")]
+        public ActionResult TryLogger()
+        {
+            int i2 = 0;
+            int i = 10 / i2;
+
+            return Ok(i);
+        }
     }
 }
