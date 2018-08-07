@@ -1,0 +1,11 @@
+C:\Users\atakankaraca\Desktop\OfflineMessaging.Api\OfflineMessaging.Data\bin\Debug\netcoreapp2.0\OfflineMessaging.Data.deps.json
+C:\Users\atakankaraca\Desktop\OfflineMessaging.Api\OfflineMessaging.Data\bin\Debug\netcoreapp2.0\OfflineMessaging.Data.runtimeconfig.json
+C:\Users\atakankaraca\Desktop\OfflineMessaging.Api\OfflineMessaging.Data\bin\Debug\netcoreapp2.0\OfflineMessaging.Data.runtimeconfig.dev.json
+C:\Users\atakankaraca\Desktop\OfflineMessaging.Api\OfflineMessaging.Data\bin\Debug\netcoreapp2.0\OfflineMessaging.Data.dll
+C:\Users\atakankaraca\Desktop\OfflineMessaging.Api\OfflineMessaging.Data\bin\Debug\netcoreapp2.0\OfflineMessaging.Data.pdb
+C:\Users\atakankaraca\Desktop\OfflineMessaging.Api\OfflineMessaging.Data\obj\Debug\netcoreapp2.0\OfflineMessaging.Data.csprojAssemblyReference.cache
+C:\Users\atakankaraca\Desktop\OfflineMessaging.Api\OfflineMessaging.Data\obj\Debug\netcoreapp2.0\OfflineMessaging.Data.csproj.CoreCompileInputs.cache
+C:\Users\atakankaraca\Desktop\OfflineMessaging.Api\OfflineMessaging.Data\obj\Debug\netcoreapp2.0\OfflineMessaging.Data.AssemblyInfoInputs.cache
+C:\Users\atakankaraca\Desktop\OfflineMessaging.Api\OfflineMessaging.Data\obj\Debug\netcoreapp2.0\OfflineMessaging.Data.AssemblyInfo.cs
+C:\Users\atakankaraca\Desktop\OfflineMessaging.Api\OfflineMessaging.Data\obj\Debug\netcoreapp2.0\OfflineMessaging.Data.dll
+C:\Users\atakankaraca\Desktop\OfflineMessaging.Api\OfflineMessaging.Data\obj\Debug\netcoreapp2.0\OfflineMessaging.Data.pdb

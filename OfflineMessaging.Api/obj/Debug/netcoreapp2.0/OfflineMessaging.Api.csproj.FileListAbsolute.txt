@@ -1,0 +1,16 @@
+C:\Users\atakankaraca\Desktop\OfflineMessaging.Api\OfflineMessaging.Api\obj\Debug\netcoreapp2.0\OfflineMessaging.Api.csprojAssemblyReference.cache
+C:\Users\atakankaraca\Desktop\OfflineMessaging.Api\OfflineMessaging.Api\obj\Debug\netcoreapp2.0\OfflineMessaging.Api.csproj.CoreCompileInputs.cache
+C:\Users\atakankaraca\Desktop\OfflineMessaging.Api\OfflineMessaging.Api\obj\Debug\netcoreapp2.0\OfflineMessaging.Api.AssemblyInfoInputs.cache
+C:\Users\atakankaraca\Desktop\OfflineMessaging.Api\OfflineMessaging.Api\obj\Debug\netcoreapp2.0\OfflineMessaging.Api.AssemblyInfo.cs
+C:\Users\atakankaraca\Desktop\OfflineMessaging.Api\OfflineMessaging.Api\bin\Debug\netcoreapp2.0\OfflineMessaging.Api.deps.json
+C:\Users\atakankaraca\Desktop\OfflineMessaging.Api\OfflineMessaging.Api\bin\Debug\netcoreapp2.0\OfflineMessaging.Api.runtimeconfig.json
+C:\Users\atakankaraca\Desktop\OfflineMessaging.Api\OfflineMessaging.Api\bin\Debug\netcoreapp2.0\OfflineMessaging.Api.runtimeconfig.dev.json
+C:\Users\atakankaraca\Desktop\OfflineMessaging.Api\OfflineMessaging.Api\bin\Debug\netcoreapp2.0\OfflineMessaging.Api.dll
+C:\Users\atakankaraca\Desktop\OfflineMessaging.Api\OfflineMessaging.Api\bin\Debug\netcoreapp2.0\OfflineMessaging.Api.pdb
+C:\Users\atakankaraca\Desktop\OfflineMessaging.Api\OfflineMessaging.Api\bin\Debug\netcoreapp2.0\OfflineMessaging.Data.dll
+C:\Users\atakankaraca\Desktop\OfflineMessaging.Api\OfflineMessaging.Api\bin\Debug\netcoreapp2.0\OfflineMessaging.Service.dll
+C:\Users\atakankaraca\Desktop\OfflineMessaging.Api\OfflineMessaging.Api\bin\Debug\netcoreapp2.0\OfflineMessaging.Data.pdb
+C:\Users\atakankaraca\Desktop\OfflineMessaging.Api\OfflineMessaging.Api\bin\Debug\netcoreapp2.0\OfflineMessaging.Service.pdb
+C:\Users\atakankaraca\Desktop\OfflineMessaging.Api\OfflineMessaging.Api\obj\Debug\netcoreapp2.0\OfflineMessaging.Api.csproj.CopyComplete
+C:\Users\atakankaraca\Desktop\OfflineMessaging.Api\OfflineMessaging.Api\obj\Debug\netcoreapp2.0\OfflineMessaging.Api.dll
+C:\Users\atakankaraca\Desktop\OfflineMessaging.Api\OfflineMessaging.Api\obj\Debug\netcoreapp2.0\OfflineMessaging.Api.pdb

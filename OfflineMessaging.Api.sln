@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OfflineMessaging.Api", "OfflineMessaging.Api\OfflineMessaging.Api.csproj", "{73BAD011-2F58-4F18-905E-5C4E86A2255C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OfflineMessaging.Data", "OfflineMessaging.Data\OfflineMessaging.Data.csproj", "{BF0F3B34-14FC-4E5B-B22E-E805A4A9F52B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OfflineMessaging.Service", "OfflineMessaging.Service\OfflineMessaging.Service.csproj", "{8FA853F0-1BC3-4F66-B61F-3B27F1281F21}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{24129EB2-A40F-456F-90BD-0A4628650F5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OfflineMessaging.Service.Tests", "OfflineMessaging.Service.Tests\OfflineMessaging.Service.Tests.csproj", "{0F25BE05-2CB0-4C16-BF87-4132C407E9E2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{73BAD011-2F58-4F18-905E-5C4E86A2255C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73BAD011-2F58-4F18-905E-5C4E86A2255C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73BAD011-2F58-4F18-905E-5C4E86A2255C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73BAD011-2F58-4F18-905E-5C4E86A2255C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF0F3B34-14FC-4E5B-B22E-E805A4A9F52B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF0F3B34-14FC-4E5B-B22E-E805A4A9F52B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF0F3B34-14FC-4E5B-B22E-E805A4A9F52B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF0F3B34-14FC-4E5B-B22E-E805A4A9F52B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FA853F0-1BC3-4F66-B61F-3B27F1281F21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FA853F0-1BC3-4F66-B61F-3B27F1281F21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FA853F0-1BC3-4F66-B61F-3B27F1281F21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FA853F0-1BC3-4F66-B61F-3B27F1281F21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F25BE05-2CB0-4C16-BF87-4132C407E9E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F25BE05-2CB0-4C16-BF87-4132C407E9E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F25BE05-2CB0-4C16-BF87-4132C407E9E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F25BE05-2CB0-4C16-BF87-4132C407E9E2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0F25BE05-2CB0-4C16-BF87-4132C407E9E2} = {24129EB2-A40F-456F-90BD-0A4628650F5C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1965BAB5-DC2F-421E-89E6-A988BE774C48}
+	EndGlobalSection
+EndGlobal

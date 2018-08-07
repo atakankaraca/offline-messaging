@@ -1,0 +1,14 @@
+C:\Users\atakankaraca\Desktop\OfflineMessaging.Api\OfflineMessaging.Repository\bin\Debug\netcoreapp2.0\OfflineMessaging.Repository.deps.json
+C:\Users\atakankaraca\Desktop\OfflineMessaging.Api\OfflineMessaging.Repository\bin\Debug\netcoreapp2.0\OfflineMessaging.Repository.runtimeconfig.json
+C:\Users\atakankaraca\Desktop\OfflineMessaging.Api\OfflineMessaging.Repository\bin\Debug\netcoreapp2.0\OfflineMessaging.Repository.runtimeconfig.dev.json
+C:\Users\atakankaraca\Desktop\OfflineMessaging.Api\OfflineMessaging.Repository\bin\Debug\netcoreapp2.0\OfflineMessaging.Repository.dll
+C:\Users\atakankaraca\Desktop\OfflineMessaging.Api\OfflineMessaging.Repository\bin\Debug\netcoreapp2.0\OfflineMessaging.Repository.pdb
+C:\Users\atakankaraca\Desktop\OfflineMessaging.Api\OfflineMessaging.Repository\bin\Debug\netcoreapp2.0\OfflineMessaging.Data.dll
+C:\Users\atakankaraca\Desktop\OfflineMessaging.Api\OfflineMessaging.Repository\bin\Debug\netcoreapp2.0\OfflineMessaging.Data.pdb
+C:\Users\atakankaraca\Desktop\OfflineMessaging.Api\OfflineMessaging.Repository\obj\Debug\netcoreapp2.0\OfflineMessaging.Repository.csprojAssemblyReference.cache
+C:\Users\atakankaraca\Desktop\OfflineMessaging.Api\OfflineMessaging.Repository\obj\Debug\netcoreapp2.0\OfflineMessaging.Repository.csproj.CoreCompileInputs.cache
+C:\Users\atakankaraca\Desktop\OfflineMessaging.Api\OfflineMessaging.Repository\obj\Debug\netcoreapp2.0\OfflineMessaging.Repository.AssemblyInfoInputs.cache
+C:\Users\atakankaraca\Desktop\OfflineMessaging.Api\OfflineMessaging.Repository\obj\Debug\netcoreapp2.0\OfflineMessaging.Repository.AssemblyInfo.cs
+C:\Users\atakankaraca\Desktop\OfflineMessaging.Api\OfflineMessaging.Repository\obj\Debug\netcoreapp2.0\OfflineMessaging.Repository.csproj.CopyComplete
+C:\Users\atakankaraca\Desktop\OfflineMessaging.Api\OfflineMessaging.Repository\obj\Debug\netcoreapp2.0\OfflineMessaging.Repository.dll
+C:\Users\atakankaraca\Desktop\OfflineMessaging.Api\OfflineMessaging.Repository\obj\Debug\netcoreapp2.0\OfflineMessaging.Repository.pdb
