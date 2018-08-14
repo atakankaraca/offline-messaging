@@ -7,9 +7,9 @@ namespace OfflineMessaging.Service
 {
     public class UserActivityService : IUserActivityService
     {
-        private IRepository<UserActivity, int> _userActivityRepository;
-        private IHttpContextAccessor _httpContextAccessor;
-        private string _currentUser;
+        private readonly IRepository<UserActivity, int> _userActivityRepository;
+        private readonly IHttpContextAccessor _httpContextAccessor;
+        private readonly string _currentUser;
 
         public UserActivityService(IRepository<UserActivity, int> userActivityRepository, IHttpContextAccessor httpContextAccessor)
         {

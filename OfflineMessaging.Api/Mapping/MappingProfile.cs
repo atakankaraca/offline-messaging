@@ -7,7 +7,7 @@ namespace OfflineMessaging.Api.Mapping
 {
     public class MappingProfile : Profile
     {
-        public MappingProfile()
+      public MappingProfile()
         {
             CreateMap<User, UserDto>();
             CreateMap<UserDto, User>();

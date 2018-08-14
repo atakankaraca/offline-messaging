@@ -10,11 +10,10 @@ using Microsoft.Extensions.DependencyInjection;
 using OfflineMessaging.Api.Attributes;
 using OfflineMessaging.Api.Extensions;
 using OfflineMessaging.Api.Middleware;
-using OfflineMessaging.Data;
-using OfflineMessaging.Data.Model;
 using OfflineMessaging.Data.Validator;
 using OfflineMessaging.Repository;
 using OfflineMessaging.Service;
+using OfflineMessaging.Service.DTO;
 using OfflineMessaging.Service.Validator;
 
 namespace OfflineMessaging.Api
@@ -45,10 +44,10 @@ namespace OfflineMessaging.Api
             services.AddTransient<IBlockListService, BlockListService>();
             services.AddTransient<IUserActivityService, UserActivityService>();
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
-            services.AddTransient<IValidator<User>, UserValidator>();
-            services.AddTransient<IValidator<BlockList>, BlockListValidator>();
-            services.AddTransient<IValidator<Message>, MessageValidator>();
-            services.AddTransient<IValidator<UserActivity>, UserActivityValidator>();
+            services.AddTransient<IValidator<UserDto>, UserValidator>();
+            services.AddTransient<IValidator<BlockListDto>, BlockListValidator>();
+            services.AddTransient<IValidator<MessageDto>, MessageValidator>();
+            services.AddTransient<IValidator<UserActivityDto>, UserActivityValidator>();
 
             services.AddScoped<ModelValidationAttribute>();
         }

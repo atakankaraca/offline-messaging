@@ -3,15 +3,14 @@ using System.Linq;
 using Microsoft.AspNetCore.Http;
 using OfflineMessaging.Data;
 using OfflineMessaging.Repository;
-using OfflineMessaging.Service.Helper;
 
 namespace OfflineMessaging.Service
 {
     public class BlockListService : IBlockListService
     {
-        private IRepository<BlockList, int> _blockListRepository;
-        private IHttpContextAccessor _httpContextAccessor;
-        private string _currentUser;
+        private readonly IRepository<BlockList, int> _blockListRepository;
+        private readonly IHttpContextAccessor _httpContextAccessor;
+        private readonly string _currentUser;
 
         public BlockListService(IRepository<BlockList, int> blockListRepository, IHttpContextAccessor httpContextAccessor)
         {
@@ -33,16 +32,11 @@ namespace OfflineMessaging.Service
             if (_currentUser != null)
                 return;
 
-            blockListModel.BlockerId = _currentUser;
-            var isValidModel = ValidateHelper.ValidaBlockListModel(blockListModel);
-
-            if (!isValidModel)
-                return;
+            blockListModel.BlockerId = _currentUser;            
             if (IsBlocked(blockListModel.BlockerId, blockListModel.BlockerId))
                 return;
 
             _blockListRepository.Insert(blockListModel);
-
         }
 
         public bool IsBlocked(string blocked, string blocker)

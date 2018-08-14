@@ -14,3 +14,6 @@ C:\Users\atakankaraca\Desktop\OfflineMessaging.Api\OfflineMessaging.Api\bin\Debu
 C:\Users\atakankaraca\Desktop\OfflineMessaging.Api\OfflineMessaging.Api\obj\Debug\netcoreapp2.0\OfflineMessaging.Api.csproj.CopyComplete
 C:\Users\atakankaraca\Desktop\OfflineMessaging.Api\OfflineMessaging.Api\obj\Debug\netcoreapp2.0\OfflineMessaging.Api.dll
 C:\Users\atakankaraca\Desktop\OfflineMessaging.Api\OfflineMessaging.Api\obj\Debug\netcoreapp2.0\OfflineMessaging.Api.pdb
+C:\Users\atakankaraca\Desktop\OfflineMessaging.Api\OfflineMessaging.Api\obj\Debug\netcoreapp2.0\OfflineMessaging.Api.RazorAssemblyInfo.cache
+C:\Users\atakankaraca\Desktop\OfflineMessaging.Api\OfflineMessaging.Api\obj\Debug\netcoreapp2.0\OfflineMessaging.Api.RazorAssemblyInfo.cs
+C:\Users\atakankaraca\Desktop\OfflineMessaging.Api\OfflineMessaging.Api\obj\Debug\netcoreapp2.0\OfflineMessaging.Api.RazorTargetAssemblyInfo.cache

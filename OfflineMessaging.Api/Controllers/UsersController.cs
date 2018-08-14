@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
+using OfflineMessaging.Api.Attributes;
 using OfflineMessaging.Data;
 using OfflineMessaging.Service;
 using OfflineMessaging.Service.DTO;
@@ -13,12 +14,14 @@ namespace OfflineMessaging.Api.Controllers
 {
     [Authorize]
     [Route("api/[controller]")]
+    [ModelValidation]
     public class UsersController : Controller
     {
         private readonly IUserService _userService;
         private readonly IMapper _mapper;
         private readonly IConfiguration _configuration;
-        private RavenClient _ravenClient;
+        private readonly RavenClient _ravenClient;
+        private readonly ValidateHelper _validator;
 
         public UsersController(IUserService userService, IMapper mapper, IConfiguration configuration)
         {
@@ -26,14 +29,17 @@ namespace OfflineMessaging.Api.Controllers
             _mapper = mapper;
             _configuration = configuration;
             _ravenClient = new RavenClient(_configuration.GetSection("SentryLogger").GetSection("LogDsn").Value);
+            _validator = new ValidateHelper();
         }
 
         [HttpGet]
         public IActionResult GetAll()
         {
             var users = _userService.GetUsers();
-            var usersDto = _mapper.Map<List<UserInfoDto>>(users);
+            if (users == null)
+                return NotFound();
 
+            var usersDto = _mapper.Map<List<UserInfoDto>>(users);
             return Ok(usersDto);
         }
 
@@ -41,8 +47,10 @@ namespace OfflineMessaging.Api.Controllers
         public IActionResult Get(string username)
         {
             var user = _userService.GetUserByUsername(username);
-            var userDto = _mapper.Map<UserInfoDto>(user);
+            if (user == null)
+                return NotFound();
 
+            var userDto = _mapper.Map<UserInfoDto>(user);
             return Ok(userDto);
         }
 
@@ -57,18 +65,16 @@ namespace OfflineMessaging.Api.Controllers
 
             var tokenString = TokenGenerator.GenerateToken(user);
 
-            return Ok(new
-            {
-                Username = user.Id,
-                FullName = user.FullName,
-                Token = tokenString,
-            });
+            return Ok(new { username = user.Id, fullname = user.FullName, token = tokenString });
         }
 
         [AllowAnonymous]
         [HttpPost]
         public ActionResult Post([FromBody] UserDto user)
         {
+            var validationResult = _validator.ValidateUserModel(user);
+            if (!validationResult.IsValid)
+                return BadRequest(new { message = validationResult.Errors });
 
             var userToAdd = _mapper.Map<User>(user);
 

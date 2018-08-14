@@ -3,7 +3,7 @@ using OfflineMessaging.Service.DTO;
 
 namespace OfflineMessaging.Data.Validator
 {
-    public class MessageValidator : AbstractValidator<Message>
+    public class MessageValidator : AbstractValidator<MessageDto>
     {
         public MessageValidator()
         {

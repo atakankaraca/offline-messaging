@@ -1,8 +1,9 @@
 ﻿using FluentValidation;
+using OfflineMessaging.Service.DTO;
 
 namespace OfflineMessaging.Data.Validator
 {
-    public class UserValidator : AbstractValidator<User>
+    public class UserValidator : AbstractValidator<UserDto>
     {
         public UserValidator()
         {

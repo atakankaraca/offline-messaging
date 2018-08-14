@@ -15,7 +15,7 @@ namespace OfflineMessaging.Service
         private readonly IRepository<User, string> _userRepository;
         private readonly IUserActivityService _userActivityService;
         private readonly IHttpContextAccessor _httpContextAccessor;
-        private string _currentUser;
+        private readonly string _currentUser;
 
         public UserService(IRepository<User, string> userRepository, IUserActivityService userActivityService, IHttpContextAccessor httpContextAccessor)
         {
@@ -78,12 +78,7 @@ namespace OfflineMessaging.Service
         {
             if (!IsUniqueEmail(user.Email) || !IsUniqueUserName(user.Id))
                 return;
-
-            var isValidModel = ValidateHelper.ValidateUserModel(user);
-
-            if (!isValidModel)                
-                return;
-
+            
             _userRepository.Insert(user);
         }
         

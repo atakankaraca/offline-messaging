@@ -1,10 +1,9 @@
-﻿using System;
-using FluentValidation;
-using OfflineMessaging.Data.Model;
+﻿using FluentValidation;
+using OfflineMessaging.Service.DTO;
 
 namespace OfflineMessaging.Service.Validator
 {
-    public class UserActivityValidator : AbstractValidator<UserActivity>
+    public class UserActivityValidator : AbstractValidator<UserActivityDto>
     {
         public UserActivityValidator()
         {

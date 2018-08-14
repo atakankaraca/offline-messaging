@@ -34,8 +34,11 @@ namespace OfflineMessaging.Api.Middleware
 
         public Task HandleExceptionAsync(HttpContext context, Exception exception)
         {
+            var response = new TaskCompletionSource<HttpResponse>();
             _ravenClient.Capture(new SentryEvent(exception));
-            return Task.CompletedTask;
+            response.SetException(exception);
+            response.SetResult(context.Response);
+            return response.Task;
         }
     }
 }
